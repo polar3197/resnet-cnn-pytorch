@@ -1,7 +1,7 @@
 # ResNet-based CNN in PyTorch
 
 ## Overview
-This project, assigned by CS 189 at UC Berkeley, implements a convolutional neural network (CNN) using PyTorch based on a ResNet architecture. The model was adapted from the research paper 'Deep Residual Learning for Image Recognition' (https://doi.org/10.48550/arXiv.1512.03385).
+This CIFAR10 classification project, assigned by CS 189 at UC Berkeley, implements a convolutional neural network (CNN) using PyTorch. I designed my model after the one described in the research paper 'Deep Residual Learning for Image Recognition' (https://doi.org/10.48550/arXiv.1512.03385).
 
 ## Dataset
 CIFAR10
