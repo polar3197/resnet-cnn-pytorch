@@ -1,18 +1,23 @@
 # ResNet-based CNN in PyTorch
 
 ## Overview
-This project implements a convolutional neural network (CNN) using PyTorch, based on a ResNet architecture. The model was adapted from a research paper on [topic or goal].
+This project, assigned by CS 189 at UC Berkeley, implements a convolutional neural network (CNN) using PyTorch based on a ResNet architecture. The model was adapted from the research paper 'Deep Residual Learning for Image Recognition' (https://doi.org/10.48550/arXiv.1512.03385).
 
 ## Dataset
-[Briefly describe the dataset used, e.g., CIFAR-10 or a custom dataset.]
+CIFAR10
 
 ## Implementation
 - Framework: PyTorch
-- Model: ResNet-based CNN
-- Features: [Briefly describe key features, e.g., data augmentation, dropout.]
+- Model: ResNet-based CNN with simple three res-block structure
+- Features:
+    - Custom ResNet-inspired architecture with three residual blocks and skip connections.
+    - Xavier initialization applied to weights for improved convergence.
+    - Dropout regularization (p=0.6) before the fully connected layer to reduce overfitting.
+    - StepLR learning rate scheduler with decay factor of 0.1 every 10 epochs.
+    - CrossEntropyLoss for multi-class classification.
 
 ## Results
-[Include key metrics or a summary of results.]
+Test accuracy 82.02%
 
 
 ## Setup
